@@ -22,7 +22,7 @@ const SingleRockets = () => {
       {!singleRocket ? (
         <Loading />
       ) : (
-        <div className=" w-full flex  screen:pb-20 screen:flex-col-reverse screen:w-full screen:h-full h-[100vh]  bg-black/40 backdrop-blur-xl ">
+        <div className=" w-full flex big-screen:pb-40 screen:pb-20 screen:flex-col-reverse screen:w-full screen:h-full h-[100vh]  bg-black/40 backdrop-blur-xl ">
           <div className="big-screen:pl-5 pr-2 big-screen:pt-40 big-screen:w-1/3 laptop:px-5 laptop:w-1/2  h-full screen:w-full screen:pt-10  mobile:px-2 mobile:pt-5 flex flex-col justify-center">
             <h1 className="text-6xl laptop:text-5xl screen:text-4xl">
               {singleRocket.name}

@@ -39,7 +39,7 @@ const Destinations = (props) => {
         </div>
         <div className="w-2/3 laptop:w-1/2 screen:object-cover tablet:w-full mobile:pt-4">
           <img
-            className="w-full h-full rounded-l-xl screen:object-cover mobile:h-[50vh]"
+            className="w-full h-full rounded-l-xl tablet:rounded-none screen:object-cover mobile:h-[50vh]"
             src={Image}
             alt="view"
           />
