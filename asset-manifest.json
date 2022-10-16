@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inspace/static/css/main.ffff0341.css",
-    "main.js": "/inspace/static/js/main.12cc4f32.js",
+    "main.css": "/inspace/static/css/main.41ad336d.css",
+    "main.js": "/inspace/static/js/main.e1f25c25.js",
     "static/media/space.mp4": "/inspace/static/media/space.41584ed51700d249bf73.mp4",
     "static/media/Astronaut-mountains.webp": "/inspace/static/media/Astronaut-mountains.a642ebf906925dca9d45.webp",
     "static/media/technology-hero.jpg": "/inspace/static/media/technology-hero.182908d2fd355de86e36.jpg",
@@ -35,11 +35,11 @@
     "static/media/window.webp": "/inspace/static/media/window.0a3d8bd5197d2f3e854b.webp",
     "static/media/station.webp": "/inspace/static/media/station.d199b5188ac6518663a4.webp",
     "index.html": "/inspace/index.html",
-    "main.ffff0341.css.map": "/inspace/static/css/main.ffff0341.css.map",
-    "main.12cc4f32.js.map": "/inspace/static/js/main.12cc4f32.js.map"
+    "main.41ad336d.css.map": "/inspace/static/css/main.41ad336d.css.map",
+    "main.e1f25c25.js.map": "/inspace/static/js/main.e1f25c25.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffff0341.css",
-    "static/js/main.12cc4f32.js"
+    "static/css/main.41ad336d.css",
+    "static/js/main.e1f25c25.js"
   ]
 }
