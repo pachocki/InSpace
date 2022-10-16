@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/InSpace/static/css/main.b02a5545.css",
-    "main.js": "/InSpace/static/js/main.56c4c832.js",
+    "main.js": "/InSpace/static/js/main.7b11dd7f.js",
     "static/media/space.mp4": "/InSpace/static/media/space.41584ed51700d249bf73.mp4",
     "static/media/Astronaut-mountains.webp": "/InSpace/static/media/Astronaut-mountains.a642ebf906925dca9d45.webp",
     "static/media/destinations-view5.jpg": "/InSpace/static/media/destinations-view5.b03118dd371cb2e1ef4e.jpg",
@@ -36,10 +36,10 @@
     "static/media/station.webp": "/InSpace/static/media/station.d199b5188ac6518663a4.webp",
     "index.html": "/InSpace/index.html",
     "main.b02a5545.css.map": "/InSpace/static/css/main.b02a5545.css.map",
-    "main.56c4c832.js.map": "/InSpace/static/js/main.56c4c832.js.map"
+    "main.7b11dd7f.js.map": "/InSpace/static/js/main.7b11dd7f.js.map"
   },
   "entrypoints": [
     "static/css/main.b02a5545.css",
-    "static/js/main.56c4c832.js"
+    "static/js/main.7b11dd7f.js"
   ]
 }
