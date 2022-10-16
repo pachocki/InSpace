@@ -94,8 +94,7 @@ const SingleRockets = () => {
 
             <ul className="flex flex-wrap items-center justify-start gap-3 mt-5 w-full screen:px-5 mobile:px-2 z-100">
               {singleRocket.flickr_images.map((image, index) => (
-                <li
-                  key={index}>
+                <li key={index}>
                   <img src={image} alt={singleRocket.name} className="w-20" />
                 </li>
               ))}

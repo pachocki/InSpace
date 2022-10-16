@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRef } from "react";
 import ScrollTop from '../Components/ScrollTop/ScrollTop';
+import Header from "../Components/Header/Header"
 import Hero from '../Components/Hero/Hero'
 import About from '../Components/About/About'
 import Services from '../Components/Services/Services'
@@ -13,6 +14,7 @@ const Home = () => {
   const resultRef = useRef(null);
   return (
     <div className="bg-black/40 backdrop-blur-xl">
+      <Header/>
     <Hero resultRef={resultRef}/>
      <About/>
      <Services/>
