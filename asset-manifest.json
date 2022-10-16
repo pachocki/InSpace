@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/InSpace/static/css/main.a890d538.css",
-    "main.js": "/InSpace/static/js/main.2d56226e.js",
+    "main.css": "/InSpace/static/css/main.b02a5545.css",
+    "main.js": "/InSpace/static/js/main.f4b38dcf.js",
     "static/media/space.mp4": "/InSpace/static/media/space.41584ed51700d249bf73.mp4",
     "static/media/Astronaut-mountains.webp": "/InSpace/static/media/Astronaut-mountains.a642ebf906925dca9d45.webp",
-    "static/media/technology-hero.jpg": "/InSpace/static/media/technology-hero.182908d2fd355de86e36.jpg",
     "static/media/destinations-view5.jpg": "/InSpace/static/media/destinations-view5.b03118dd371cb2e1ef4e.jpg",
     "static/media/space-view.png": "/InSpace/static/media/space-view.f41d8c8de22aec296086.png",
     "static/media/laboratory.jpg": "/InSpace/static/media/laboratory.d605b375b24645cc1479.jpg",
@@ -15,17 +14,18 @@
     "static/media/hotel-europa.webp": "/InSpace/static/media/hotel-europa.b9310364cdaf0141f955.webp",
     "static/media/spa2.jpg": "/InSpace/static/media/spa2.4485f7426f1f460529d9.jpg",
     "static/media/destinations-view2.jpg": "/InSpace/static/media/destinations-view2.2855824d1014b9035e12.jpg",
-    "static/media/office.jpg": "/InSpace/static/media/office.3b3fa324ab77dd32893e.jpg",
     "static/media/hotel-forest.webp": "/InSpace/static/media/hotel-forest.1ad2edd13be0eaab5102.webp",
     "static/media/rover.webp": "/InSpace/static/media/rover.c4e0beb7844d908bbd3f.webp",
     "static/media/background1.jpg": "/InSpace/static/media/background1.37c91045efa3a7a849eb.jpg",
     "static/media/astronaut-footer.png": "/InSpace/static/media/astronaut-footer.1200e445c36611980120.png",
+    "static/media/technology-hero.webp": "/InSpace/static/media/technology-hero.526c9ff6f0e84fc25d9d.webp",
     "static/media/spa1.jpg": "/InSpace/static/media/spa1.c3c99f8ee7a676835c68.jpg",
     "static/media/background-tech.png": "/InSpace/static/media/background-tech.8f98c780a6985c7b5a6a.png",
     "static/media/hotel-moon.webp": "/InSpace/static/media/hotel-moon.d8dda3f5372e1ec4e261.webp",
     "static/media/rocket.webp": "/InSpace/static/media/rocket.dc13cc75a4f51589421a.webp",
+    "static/media/office.webp": "/InSpace/static/media/office.4b2e5d6716302938c566.webp",
     "static/media/destinations-view3.jpg": "/InSpace/static/media/destinations-view3.8ddf9843bb5d1ff1025e.jpg",
-    "static/media/crew-hero1.jpg": "/InSpace/static/media/crew-hero1.71f52d3ddaa0a5e2e2a9.jpg",
+    "static/media/crew-hero1.webp": "/InSpace/static/media/crew-hero1.2b835e025dd680ac4afa.webp",
     "static/media/restaurant.webp": "/InSpace/static/media/restaurant.dd7c2a2258ee31b80c08.webp",
     "static/media/Rocket-Transparent.png": "/InSpace/static/media/Rocket-Transparent.520069794e3a45f6a342.png",
     "static/media/crew-hero.jpg": "/InSpace/static/media/crew-hero.83c24f59b35e95901ae5.jpg",
@@ -35,11 +35,11 @@
     "static/media/window.webp": "/InSpace/static/media/window.0a3d8bd5197d2f3e854b.webp",
     "static/media/station.webp": "/InSpace/static/media/station.d199b5188ac6518663a4.webp",
     "index.html": "/InSpace/index.html",
-    "main.a890d538.css.map": "/InSpace/static/css/main.a890d538.css.map",
-    "main.2d56226e.js.map": "/InSpace/static/js/main.2d56226e.js.map"
+    "main.b02a5545.css.map": "/InSpace/static/css/main.b02a5545.css.map",
+    "main.f4b38dcf.js.map": "/InSpace/static/js/main.f4b38dcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.a890d538.css",
-    "static/js/main.2d56226e.js"
+    "static/css/main.b02a5545.css",
+    "static/js/main.f4b38dcf.js"
   ]
 }
