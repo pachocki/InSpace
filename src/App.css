@@ -1,38 +1,466 @@
-.App {
-  text-align: center;
+
+/*===============================================================CSS RESET===================================================================*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+.App{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-image: url(./Assets/images/background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width:100%;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
 }
 
-@keyframes App-logo-spin {
+/* Make images easier to work with */
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
+/*===============================================================END OF CSS RESET===================================================================*/
+body{
+  font-family: 'Barlow', sans-serif;
+  color:#fff;
+  background:black;
+}
+h1,h2,span{
+  font-family: 'Orbitron', sans-serif;
+}
+.glide{
+  animation:glide 2s ease-in-out alternate infinite;
+  position:absolute;
+}
+
+.hero{
+  box-shadow: rgba(0, 0, 0, 1) 0px 22px 70px 4px;
+}
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  font-size:1.6em;
+  align-items:center;
+  width:100%;
+  color:#fff;
+  padding:1em 1em;
+  z-index:2;
+  position:fixed;
+  top:0;
+  left:0;
+  transition: 0.8s all ease;
+  z-index:300;
+  transition:0.5s ease-in-out;
+  
+}
+.navbar.colorchange{
+  background: rgba( 000, 000, 000, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+
+
+}
+.shadow{
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(20, 19, 19, 0.664) 0%, rgba(0,0,0,1) 100%);
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 50px );
+ 
+}
+.parallax {
+ 
+  background-image: url(./Assets/images/space-view.png);
+
+  
+  min-height: 500px;
+  width:100%;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@keyframes glide  {
   from {
-    transform: rotate(0deg);
+     left:0px;
+     top:0px;
   }
+  
   to {
-    transform: rotate(360deg);
+     left:0px;
+     top:20px;
   }
+
+}
+
+.overlay-bg:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+.overlay-technology:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.hide{
+  display:none;
+}
+
+
+
+
+
+/* Button */
+button,
+button:after {
+  width: 140px;
+  height: 40px;
+  line-height: 78px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #a82525 5%)!important;
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'ALTERNATE TEXT';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+button:hover:after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+/*Button*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.destinations{
+  background-image: url(./Assets/images/Astronaut-mountains.webp);
+}
+.crew{
+  background-image: url(./Assets/images/crew-hero1.jpg);
+
+}
+.technology{
+  background-image: url(./Assets/images/technology-hero.jpg);
+}
+
+.tech{
+  background-image: url(./Assets/images/background-tech.png);
+}
+.contact{
+  background-image: url(./Assets/images/office.jpg);
+
+}
+
+.line:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  right: 0;
+  width:70%;
+  height: 0.7em;
+  border-top: 1px solid rgb(253, 255, 255);
+  z-index: 20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.scrolltop {
+  position: fixed; 
+  bottom: 20px;
+  height: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.7;
+  left:12%;
+  fill:#ffffff;
+  overflow:hidden;
+  width:40px
+}
+
+.scrolltop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+
+
+
+
+
+
+/*Media Queries */
+@media (max-width: 1000px) {
+  .line:after {
+    left:25%
+    }
+    .crew{
+      background-position-x: 75%;
+    }
+    .technology{
+      background-position-x: 60%;
+    }
+}
+@media (max-width: 780px) {
+  button,
+  button:after {
+    width: 100px;
+    height: 40px;
+    line-height: 88px;
+    font-size:12px!important;
+  }
+  .scrolltop {
+   
+    bottom:10px;
+    fill:red;
+    left:80%;
+    
+  }
+  .crew{
+    background-position-x: 65%;
+  }
+ 
+}
+
+
+@media (min-width: 768px) {
+  button,
+  button:after {
+    width: 140px;
+    height: 40px;
+    line-height: 88px;
+    
+  }
+  
+}
+
+@media only screen and (max-width: 680px) {
+.flex-direction{
+  display:flex;
+  flex-direction:column;
+  justify-content: center!important;
+  gap:0!important;
+}
+.about-des{
+  width:90%;
+}
+.about-des h2{
+  text-align:center;
+  font-size:2.5rem;
+}
+.destinations{
+background-position: left;
+}
+.line:after {
+    left:12%;
+    width:88%
+    }
+    .technology{
+      background-position-x: 70%;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+.parallax{
+  height:180px;
+}
+.destinations{
+  background-position-x: 25%;
+}
+.technology{
+  background-position-x: 80%;
+}
+}
+@media only screen and (max-width: 160px) {
+.hide{
+  display:none!important;
+}
 }
