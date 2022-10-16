@@ -16,13 +16,13 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" index element={<Home />} />
-        <Route path="/destinations" element={<Destinations />} />
-        <Route path="/Crew" element={<Crew />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/technology" element={<Technology />} />
-        <Route path="/rockets/:id" element={<SingleRockets />}></Route>
-        <Route path="/launchpads/:id" element={<SingleLaunchpad />}></Route>
+        <Route path="InSpace" index element={<Home />} />
+        <Route path="destinations" element={<Destinations />} />
+        <Route path="crew" element={<Crew />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="technology" element={<Technology />} />
+        <Route path="rockets/:id" element={<SingleRockets />}></Route>
+        <Route path="launchpads/:id" element={<SingleLaunchpad />}></Route>
         
       </Routes>
     </div>
