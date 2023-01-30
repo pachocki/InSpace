@@ -16,5 +16,6 @@ Run npm install to install the necessary dependencies
 Run npm start to start the development server
 Open http://localhost:3000 in your browser to view the website
 # Full website image 
-![Website]https://github.com/pachocki/InSpace/blob/main/src/Assets/images/inspace-pc.png) 
-![Website]https://github.com/pachocki/InSpace/blob/main/src/Assets/images/inspace-mobile.png) 
+![Website](https://github.com/pachocki/InSpace/blob/main/src/Assets/images/inspace-pc.png) 
+![Website](https://github.com/pachocki/InSpace/blob/main/src/Assets/images/inspace-mobile.png) 
+
